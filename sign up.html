@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="scriptfile.js"></script>
+    </head>
+    <body class="sign-body">
+        <center>
+        <fieldset class="color-field">
+            <form name="form3" onsubmit="return Signup()" method="POST">
+                <h1>Sign Up</h1>
+                <br>
+                <label for="firstname" class="my-label">Firstname</label>
+                <br>
+                <input type="text" name="firstname" class="sign-operator">
+                <br>
+                <br>
+                <label for="lastname" class="my-label">Lastname</label>
+                <br>
+                <input type="text" name="lastname" class="sign-operator">
+                <br>
+                <br>
+                <label for="email" class="my-label">Email</label>
+                <br>
+                <input type="email" name="email" class="sign-operator">
+                <br>
+                <br>
+                <label for="username" class="my-label">Username</label>
+                <br>
+                <input type="text" name="username" class="sign-operator">
+                <br>
+                <br>
+                <div class="G-form">
+                <input type="radio" value="male" name="gender">
+                <label for="gender" class="gender1">Male</label>
+                <br>
+                <input type="radio" value="female" name="gender">
+                <label for="gender" class="gender1">Female</label>
+                </div>
+                <br>
+                <label for="password" class="my-label">Enter password</label>
+                <br>
+                <input type="password" name="password" class="sign-operator">
+                <br>
+                <br>
+                <label for="password" class="my-label">Confirm password</label>
+                <br>
+                <input type="password" name="password2" class="sign-operator">
+                <br>
+                <br>
+                <input type="submit" value="Sign Up" name="save" class="sign-button" onclick="Signup()">
+            </form>
+        </fieldset>
+        </center>
+    </body>
+</html>

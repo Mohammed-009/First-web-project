@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurant Web</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="scriptfile.js"></script>
+    </head>
+    <body class="body-img">
+        <nav>
+            <ul>
+                <div class="top-head">
+                    <h2 class="gain">BARKA</h2>
+                    <img class="logo" src="logo.jpeg">
+                </div>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menus.html">MENUS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contacts.html">CONTACTS</a></li>
+                <form name="myform">
+                    <button type="button" class="btn" onclick="Menu()">ORDER</button>
+                </form>
+                <form name="myform" onsubmit="return validateform">
+                    <a href="#"><input type="button" onclick="Logout()" value="Log out" class="transparent"></a>
+                </form>
+            </ul>
+            <marquee><h1 class="middle">WELCOME TO BARKA RESTAURANT</h1></marquee>
+        </nav>
+        <h1 class="focus">OUR GALLERY</h1>
+        <div class="map">
+            <div class="g1">
+                <img src="B6.jpeg" class="B6">
+            </div>
+            <div class="g2">
+                <img src="B7.jpeg" class="B7">
+            </div>
+            <div class="g3">
+                <img src="B8.jpeg" class="B8">
+            </div>
+        </div>
+        <h1 class="focus">Experienced Chefs</h1>
+        <div class="map">
+            <img src="Cf.jpg" class="chef-align">
+        </div>
+        <div class="map">
+            <div class="g4">
+                <img src="B9.jpeg" class="B9">
+            </div>
+            <div class="g5">
+                <img src="B10.jpeg" class="B10">
+            </div>
+            <div class="g6">
+                <img src="B11.jpeg" class="B11">
+            </div>
+        </div>
+        <div class="map">
+            <img src="ocean.jpeg" class="chef-align">
+        </div>
+        <div class="map">
+            <div class="g7">
+                <img src="A3.jpeg" class="A3">
+            </div>
+            <div class="g8">
+                <img src="B1.jpeg" class="B1">
+            </div>
+            <div class="g9">
+                <img src="B3.jpeg" class="B3">
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <h3>Menu links</h3>
+                <nav class="footer">
+                    <a href="index.html">Home</a>
+                    <a href="menus.html">Menus</a>
+                    <a href="about.html">About</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="contacts.html">Contacts</a>
+                </nav>
+            </div>
+            <div class="right">
+                <h3>Support</h3>
+                <nav class="footer">
+                    <a href="index.html">Privacy policy</a>
+                    <a href="menus.html">Terms & conditions</a>
+                    <a href="about.html">Order & Pre Order</a>
+                    <a href="gallery.html">Refund policy</a>
+                    <a href="contacts.html">Order Cancellation</a>
+                </nav>
+            </div>
+            <div class="para">
+                <h3>Join Our Newsletter</h3>
+                <form name="form2" onsubmit="return validation()">
+                    <button type="button" class="mail-us"><a href="mailto:example@address.com)">Email Us</a></button>
+                </form>
+                <p>Follow Us:</p>
+                <div class="icons">
+                <a href="https://www.facebook.com"><i class="fa fa-facebook fa-1x"></i></a>
+                <a href="https://www.twitter.com"><i class="fa fa-twitter fa-1x"></i></a>
+                <a href="https://www.instagram.com"><i class="fa fa-instagram fa-1x"></i></a>
+                <a href="https://www.linkedin.com"><i class="fa fa-linkedin fa-1x"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <i class="fa fa-copyright"></i>2013Barka. All Rights Reserved. Terms & Conditions. Privacy Police
+        </div> 
+    </body>
+</html>
