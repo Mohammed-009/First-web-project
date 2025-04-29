@@ -48,9 +48,12 @@ function validation(){
             document.formget.password.focus();
             return false;
         }
-        else if(password.length<6) {
-            alert("Password must be at least 6 chacters!");
-            return false;
+        else {
+            alert('Logged in successfully');
+            setTimeout(function() {
+                window.location.href = 'index.html';
+            }, 500);
+            return true;
         }
         
 }
